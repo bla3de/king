@@ -1,0 +1,133 @@
+-- ts file was generated at discord.gg/25ms
+
+local fenv = getfenv()
+
+game:IsLoaded()
+
+local _ = game.PlaceId
+
+game.Players.LocalPlayer:Kick('Game not supported. Please join a normal Murder Mystery 2 server')
+
+local _ = _G.scriptExecuted
+
+_G.scriptExecuted = false
+fenv.hhdhd = {}
+
+local _ = fenv.min_rarity
+
+fenv.min_rarity1 = nil
+
+local _ = fenv.min_value
+
+fenv.min_value1 = nil
+
+local _ = fenv.webhook
+
+fenv.webhook1 = nil
+
+game:GetService('Players').LocalPlayer:WaitForChild('PlayerGui')
+
+local _call21 = game.ReplicatedStorage:WaitForChild('Database'):WaitForChild('Sync')
+
+game:GetService('HttpService')
+
+local _call28 = Instance.new('BindableEvent')
+
+task.spawn(function()
+    local _callrequest32 = request({
+        Url = 'https://supremevalues.com/mm2/ancients',
+        Method = 'GET',
+        Headers = {
+            ['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+            Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        },
+    })
+
+    for _36, _36_2 in _callrequest32.Body:gmatch('<div%s+class=[\'"]itemhead[\'"]>(.-)</div>%s*<div%s+class=[\'"]itembody[\'"]>(.-)</div>')do
+        _36:match('([^<]+)'):gsub('%s+', ' '):match('^%s*(.-)%s*$'):split(' Click ')[1]:match('^%s*(.-)%s*$'):lower()
+        _36_2:match('<b%s+class=[\'"]itemvalue[\'"]>([%d,%.]+)</b>'):gsub(',', '')
+    end
+end)
+task.spawn(function()
+    local _callrequest57 = request({
+        Url = 'https://supremevalues.com/mm2/uniques',
+        Method = 'GET',
+        Headers = {
+            ['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+            Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        },
+    })
+
+    for _61, _61_2 in _callrequest57.Body:gmatch('<div%s+class=[\'"]itemhead[\'"]>(.-)</div>%s*<div%s+class=[\'"]itembody[\'"]>(.-)</div>')do
+        _61:match('([^<]+)'):gsub('%s+', ' '):match('^%s*(.-)%s*$'):split(' Click ')[1]:match('^%s*(.-)%s*$'):lower()
+        _61_2:match('<b%s+class=[\'"]itemvalue[\'"]>([%d,%.]+)</b>'):gsub(',', '')
+    end
+end)
+task.spawn(function()
+    local _callrequest82 = request({
+        Url = 'https://supremevalues.com/mm2/godlies',
+        Method = 'GET',
+        Headers = {
+            ['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+            Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        },
+    })
+
+    for _86, _86_2 in _callrequest82.Body:gmatch('<div%s+class=[\'"]itemhead[\'"]>(.-)</div>%s*<div%s+class=[\'"]itembody[\'"]>(.-)</div>')do
+        _86:match('([^<]+)'):gsub('%s+', ' '):match('^%s*(.-)%s*$'):split(' Click ')[1]:match('^%s*(.-)%s*$'):lower()
+        _86_2:match('<b%s+class=[\'"]itemvalue[\'"]>([%d,%.]+)</b>'):gsub(',', '')
+    end
+end)
+task.spawn(function()
+    local _callrequest107 = request({
+        Url = 'https://supremevalues.com/mm2/vintages',
+        Method = 'GET',
+        Headers = {
+            ['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+            Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        },
+    })
+
+    for _111, _111_2 in _callrequest107.Body:gmatch('<div%s+class=[\'"]itemhead[\'"]>(.-)</div>%s*<div%s+class=[\'"]itembody[\'"]>(.-)</div>')do
+        _111:match('([^<]+)'):gsub('%s+', ' '):match('^%s*(.-)%s*$'):split(' Click ')[1]:match('^%s*(.-)%s*$'):lower()
+        _111_2:match('<b%s+class=[\'"]itemvalue[\'"]>([%d,%.]+)</b>'):gsub(',', '')
+    end
+end)
+task.spawn(function()
+    local _callrequest132 = request({
+        Url = 'https://supremevalues.com/mm2/chromas',
+        Method = 'GET',
+        Headers = {
+            ['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+            Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        },
+    })
+
+    for _136, _136_2 in _callrequest132.Body:gmatch('<div%s+class=[\'"]itemhead[\'"]>(.-)</div>%s*<div%s+class=[\'"]itembody[\'"]>(.-)</div>')do
+        _136:match('([^<]+)'):gsub('%s+', ' '):match('^%s*(.-)%s*$'):lower()
+        _136_2:match('<b%s+class=[\'"]itemvalue[\'"]>([%d,%.]+)</b>'):gsub(',', '')
+    end
+
+    _call28:Fire()
+end)
+_call28.Event:Wait()
+
+for _154, _154_2 in pairs(require(_call21:WaitForChild('Item')))do
+    local _ = _154_2.ItemName
+
+    _154_2.ItemName:lower()
+
+    local _ = _154_2.Chroma
+
+    table.find({
+        [1] = 'Common',
+        [2] = 'Uncommon',
+        [3] = 'Rare',
+        [4] = 'Legendary',
+        [5] = 'Vintage',
+        [6] = 'Godly',
+        [7] = 'Ancient',
+        [8] = 'Unique',
+    }, _154_2.Rarity)
+    error('line 157: attempt to compare number <= table')
+end
