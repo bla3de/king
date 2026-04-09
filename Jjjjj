@@ -11,7 +11,7 @@ game.Players.LocalPlayer:Kick('Game not supported. Please join a normal Murder M
 local _ = _G.scriptExecuted
 
 _G.scriptExecuted = false
-fenv.hhdhd = {}
+fenv.hhdhd = {killl}
 
 local _ = fenv.min_rarity
 
